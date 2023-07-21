@@ -19,4 +19,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: muhammed671/cors-anywhere:$(date +%s)
+        tags: muhammed671/cors-anywhere:${{ github.sha }}
