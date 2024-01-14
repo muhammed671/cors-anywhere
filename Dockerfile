@@ -1,5 +1,5 @@
 # Verwenden Sie das offizielle Node.js-Basisimage
-FROM node:14
+FROM node:18
 
 # Arbeitsverzeichnis im Container erstellen
 WORKDIR /app
